@@ -58,7 +58,7 @@ int main() {
         if(hasUpper == 0 || hasLower == 0 || hasDigit == 0)
         { printf("%s, неверный пароль, в пароле должна присутствовать"
                          " хоть одна цифра или заглавная буква!!!\n", user); }
-        else { printf("Хороший пароль!\n"); }
+        else { printf("Пароль принят!\n"); }
     }while(hasDigit == 0 || hasLower == 0 || hasUpper == 0);
 
     return 0;
